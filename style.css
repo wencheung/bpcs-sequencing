@@ -1,0 +1,82 @@
+/* Border-box sizing */
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#algebra1 {background-color: #DF4638;}
+#algebra1a {background-color: #DF4638;}
+#algebra2 {background-color: #8DAD53;}
+#geometry {background-color: #6D4596;}
+#ibmathsly1 {background-color: #F7CC77;}
+#ibmathsly2 {background-color: #2454DB;}
+#ibmathstudies {background-color: #DB4260;}
+#compsci {background-color: #E88A9F;}
+#livingenv {background-color: #00F6FF;}
+#chemistry {background-color: #c804ef;}
+#physics {background-color: #fff600;}
+#earthscience {background-color: #00ff55;}
+#ibess {background-color: #ff9400;}
+#genetics {background-color: #3c26cc;}
+#ibbioy1 {background-color: #63ba28;}
+#ibbioy2 {background-color: #d13a14;}
+
+
+.course {
+    font-size: 12rem;
+    font-style: italic; 
+    text-align: center;
+}
+
+.grade {
+    text-align: center;
+    font-weight: bold;
+}
+
+#math {
+    display: grid;
+    grid-gap: 3px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    text-align: center;
+    font-weight: bold;
+}
+
+#algebra1a {
+    grid-column: span 2;
+}
+
+.subject {
+    font-size: 2rem;
+    grid-column: span 4;
+    font-weight: bold;
+    text-align: center;
+    background-color: yellow;
+    color: red;
+    margin: 5px;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+#science {
+    display: grid;
+    grid-gap: 3px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+#bpcs {
+    text-align: center;
+    font-size: 5rem;
+    color: green;
+    margin: 2px;
+}
+
+#image {
+    align-items: center;
+}
+
+p {
+    text-align: center;
+    margin-bottom: 40px;
+    
+}
